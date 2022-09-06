@@ -1,0 +1,163 @@
+.hero_banner_header {
+  text-align: center;
+  padding: 60px;
+  margin-top: 40px;
+}
+
+.hero_banner_card {
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 20px 1px;
+  border-radius: 6px;
+  text-align: center;
+  width: 100%;
+  box-shadow: 0px 1px 4px -2px #4e4e4e;
+  background-color: white;
+}
+
+.hero_banner_card>h2,
+p,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+.hero_banner_card>p {
+  margin: auto;
+  font-size: 22px;
+  background-color: #e27425;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: white;
+}
+
+
+
+.hero_banner_card>h5 {
+  color: #009d6c;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  margin-top: 9px;
+  margin-bottom: 4px;
+}
+
+.hero_banner_card:hover {
+  box-shadow: none;
+  transition: all .4s;
+}
+
+.accouding_item {
+  border: none !important;
+  background-color: red;
+}
+
+.accouding_item:focus {
+  border: none !important;
+}
+
+.bar {
+  font-size: 21px;
+  color: white;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.hero_banner_card_span {
+  font-size: 12px;
+}
+
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(0, 157, 108);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 157, 108);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(0, 157, 108);
+}
+
+.sidebar {
+  display: flex;
+}
+
+.left__sidebar {
+  top: 80px;
+  width: 300px;
+  padding: 10px 10px;
+  height: 100vh;
+  position: fixed;
+  box-shadow: -2px 6px 4px black;
+  overflow-y: scroll;
+  padding-bottom: 20px;
+  background-color: rgb(0, 157, 108);
+  margin-bottom: 40px;
+}
+
+.right__side {
+  margin-left: 300px;
+}
+
+.left__sidebar__menu {
+  margin-left: -34px;
+}
+
+.left__sidebar__menu__item {
+  display: flex;
+  align-items: center;
+}
+
+.left__sidebar__menu__item span {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 2px 15px;
+  width: 100%;
+  padding: 6px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+}
+
+.left__sidebar__menu__item span:hover {
+  background-color: rgb(45, 185, 141);
+}
+
+.right__content {
+  width: 80%;
+  margin: auto;
+}
+
+@media (max-width: 998px) {
+  .left__sidebar {
+    display: none;
+  }
+
+  .right__side {
+    margin-left: 0px;
+  }
+
+  .hero_banner_header>h4 {}
+
+  .right__side__navbar {
+    display: none !important;
+  }
+
+  .bar {
+    display: flex !important;
+  }
+
+  .left__sidebar.active {
+    display: block;
+  }
+}

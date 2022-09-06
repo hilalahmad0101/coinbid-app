@@ -1,0 +1,24 @@
+ul li {
+  list-style: none;
+}
+
+body {
+  background-color: #f1eeee;
+}
+
+.customButton {
+  text-align: center;
+  margin: 30px 0px;
+  background: rgb(0, 157, 108);
+  color: white;
+  border-radius: 9px;
+}
+
+.customButton .btn {
+  color: white;
+  border: none !important;
+}
+
+.customButton:hover {
+  background-color: rgb(50, 192, 147);
+}

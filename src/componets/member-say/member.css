@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+.member_say_container {
+  padding: 50px 0px;
+  position: relative;
+  box-sizing: border-box;
+}
+.memberSay_header {
+  text-align: center;
+  margin: 20px 0px;
+  margin-bottom: 50px;
+}
+.memberSay_header > h1 {
+  color: #009d6c;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+.memberSay_header > p {
+  color: #8f9c98;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+
+.saymember_details {
+  background-color: #ffffff;
+  position: relative;
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px;
+}
+.saymember_details_img {
+  position: absolute;
+  top: -15px;
+  left: 45%;
+  /* text-align: center; */
+}
+.saymember_details_img > img {
+  height: 50px;
+  width: 50px;
+  border: 2px solid #009d6c;
+  border-radius: 50%;
+}
+.say_member_details_info {
+  margin-top: 26px;
+  box-sizing: border-box;
+  color: #8f9c98;
+  padding: 0px 10px;
+}
+.say_member_details_author {
+  display: flex;
+  align-items: flex-end;
+  /* justify-content: flex-start; */
+  flex-direction: column;
+  width: 100%;
+  margin-top: -11px;
+  font-family: "Inter", sans-serif;
+}
+.say_member_details_author > h6 {
+  font-size: 14px;
+  color: #8f9c98;
+}
+.say_member_details_author > span {
+  font-size: 12px;
+  color: #8f9c98;
+  font-family: "Inter", sans-serif;
+}

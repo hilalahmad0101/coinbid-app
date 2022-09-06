@@ -1,0 +1,81 @@
+.footer_container {
+  padding: 50px 0px;
+  background-color: #009d6c;
+}
+
+.footer_logo_section > img {
+  height: 60px;
+  width: 100px;
+}
+.footer_logo_section > p {
+  margin-top: 11px;
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  color: white;
+}
+.footer_social {
+  margin-top: 25px;
+}
+.footer_social_icon {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  gap: 3px;
+}
+.footer_social_icon > p {
+  color: white;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.fotter_details_company {
+  margin-top: 25px;
+}
+.fotter_details_company > p {
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.footer_details_ern_point {
+  margin-top: 25px;
+}
+.footer_details_ern_point > p {
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+.footer_details_ern_point > p:hover {
+  color: white;
+}
+.footer_details_MyAccount {
+  margin-top: 25px;
+}
+.footer_details_MyAccount > p {
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .footer_logo_section {
+    text-align: center;
+  }
+  .footer_social {
+    text-align: center;
+  }
+  .footer_social_icon {
+    justify-content: center;
+  }
+  .fotter_details_company {
+    text-align: center;
+  }
+  .footer_details_ern_point {
+    text-align: center;
+  }
+  .footer_details_MyAccount {
+    text-align: center;
+  }
+}
